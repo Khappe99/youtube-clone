@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.mainbox{
+    display: flex;
+    background: green;
+    border: 2px solid blue;
+}
+.obi{
+    position: relative;
+    height: 100vh;
+    width: 250px;
+    background: #000;
+}
+
+.pic{
+    width: auto;
+    border-radius: 10px;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    
+}
+.icon{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    color: #fff;
+}
+p{
+    position: relative;
+    right: -40px;
+    top: -20px;
+    
+}
+.ttt{
+    width: 17.2px;
+}
+.mainbox .obi{
+     overflow-y: scroll;
+}
+.obi::-webkit-scrollbar{
+    width:3px;
+ 
+}
+
+.obi::-webkit-scrollbar-track{
+    background-color:#151313;
+}
+.obi::-webkit-scrollbar-thumb{
+    background-color:red;
+    border-radius:10px;
+}
+
+
+.ama{
+    height: 100vh;
+    width: 1050px;
+    background: #000;
+}
+.search-form{
+    position: relative;
+    top: 30px;
+    left: 30px
+}
+.search-form input[type="text"]{
+    padding: 8px;
+    width: 400px;
+    border: 3px solid #000;
+    border-radius: 17px;
+}
+.nav .ico{
+    position: relative;
+    left: 770px;
+    top: -8px;
+    border-radius: 50px;
+    height: 40px;  
+}
+.icoo{
+    width: 40px;
+}
+.sign{
+    padding: 10px;
+    background: red;
+    color: #fff;
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    top: -25px;
+    left: 780px;
+}
+.def{
+    background: #fff;
+    border-radius: 50px;
+    height: 45px;
+    position: relative;
+    top: -10px;
+    left: 780px;
+}
+.deff{
+    width: 40px;
+}
+.ama .heroimage img{
+    width: 1000px;
+    height: 300px;
+/*    border: 2px solid blue;*/
+    position: relative;
+    left: 5px;
+}
+.one{
+/*    border: 2px solid #fff;*/
+    border-radius: 10px;
+    width: 200px;
+    height: 160px;
+    background: black;
+    position: relative;
+    left: 5px;
+}
+.picc{
+    border-radius: 10px;
+    width: 190px;
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+.two{
+/*    border: 2px solid #fff;*/
+    border-radius: 10px;
+    width: 200px;
+    height: 160px;
+    background: #000;
+    position: relative;
+    left: 250px;
+    bottom:160px;
+}
+.licc{
+    border-radius: 10px;
+    width: 190px;
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+.three{
+/*    border: 2px solid #fff;*/
+    border-radius: 10px;
+    width: 200px;
+    height: 160px;
+    background: #000;
+    position: relative;
+    left: 550px;
+    bottom:  320px;
+}
+.micc{
+    border-radius: 10px;
+    width: 190px;
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+.four{
+/*    border: 2px solid #fff;*/
+    border-radius: 10px;
+    width: 200px;
+    height: 160px;
+    background: #000;
+    position: relative;
+    left: 800px;
+    bottom: 480px;      
+}
+.sicc{
+    border-radius: 10px;
+    width: 190px;
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+.pp{
+    color: #fff;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+.tt{
+    color: #fff;
+}
